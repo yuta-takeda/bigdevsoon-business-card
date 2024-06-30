@@ -48,7 +48,16 @@ function App() {
               </div>
             </div>
           </div>
-
+          <div className="relative w-[250px]">
+            <div className="absolute w-[300px] h-[500px] left-[-70px] top-[40px]">
+              <img
+                src={userPhoto}
+                width={805}
+                height={1006}
+                className="object-cover w-[300px] h-[500px]"
+              />
+            </div>
+          </div>
           <div className="flex flex-col grow-[3]">aaa</div>
         </div>
       </div>
