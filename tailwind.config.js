@@ -8,6 +8,9 @@ module.exports = {
         phone: "url('/phone-icon.svg')",
       },
     },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
   },
   plugins: [],
 };

@@ -10,7 +10,7 @@ function App() {
       <div className="overflow-hidden mx-auto w-1/2 bg-white rounded-xl shadow-md">
         <div className="flex flex-row h-[66vh]">
           <div className="flex flex-col text-white bg-lime-700 grow">
-            <div className="relative p-8 mb-8 grow-[3]">
+            <div className="relative p-8 mb-8 grow-[3] w-[300px]">
               <div className="absolute bottom-0">
                 <dl>
                   <dt className="font-semibold before:mr-2 before:content-email">
@@ -58,7 +58,31 @@ function App() {
               />
             </div>
           </div>
-          <div className="flex flex-col grow-[3]">aaa</div>
+          <div className="flex flex-col p-8 mt-12 grow-[3] w-[400px]">
+            <h1 className="text-5xl font-medium font-bold leading-16">
+              <span className="text-lime-700">ZAC</span>
+              <br />
+              PATRICK
+            </h1>
+            <div className="mt-8">
+              <p className="font-bold">Front-end Developer • San Francisco</p>
+              <p className="mt-4">
+                High accomplishment and user-focused Front-end Developer adept
+                in collaborating with UX and design teams to plan the technical
+                writing and execution of functional specifications for websites
+                and applications.
+              </p>
+            </div>
+            <div className="mt-4">
+              <p className="font-bold">Working with technologies:</p>
+              <ul className="mt-4 leading-7 list-disc list-inside text-gray-600">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>GraphQL</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
