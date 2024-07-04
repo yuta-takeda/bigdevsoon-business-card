@@ -49,7 +49,7 @@ function App() {
             </div>
           </div>
           <div className="relative w-[250px]">
-            <div className="absolute w-[300px] h-[500px] left-[-70px] top-[40px]">
+            <div className="absolute z-10 w-[300px] h-[500px] left-[-70px] top-[40px]">
               <img
                 src={userPhoto}
                 width={805}
@@ -57,9 +57,14 @@ function App() {
                 className="object-cover w-[300px] h-[500px]"
               />
             </div>
+            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[100px] left-[-90px]"></div>
+            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[70px] left-[210px]"></div>
+            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[520px] left-[100px]"></div>
+            <div className="absolute w-12 h-12 bg-lime-700 rounded-full top-[510px] left-[200px]"></div>
+            <div className="absolute z-20 w-32 h-32 bg-lime-700 rounded-full top-[-60px] left-[590px]"></div>
           </div>
           <div className="flex flex-col p-8 mt-12 grow-[3] w-[400px]">
-            <h1 className="text-5xl font-medium font-bold leading-16">
+            <h1 className="text-5xl font-medium leading-16">
               <span className="text-lime-700">ZAC</span>
               <br />
               PATRICK
