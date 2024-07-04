@@ -7,7 +7,7 @@ import twitterIcon from "./assets/icons/twitter-icon.svg";
 function App() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-green-100">
-      <div className="overflow-hidden mx-auto w-1/2 bg-white rounded-xl shadow-md">
+      <div className="overflow-hidden mx-auto bg-white rounded-xl shadow-md">
         <div className="flex flex-row h-[66vh]">
           <div className="flex flex-col text-white bg-lime-700 grow">
             <div className="relative p-8 mb-8 grow-[3] w-[300px]">
@@ -28,20 +28,26 @@ function App() {
               <p className="font-semibold">Find me on</p>
               <div className="flex flex-row gap-4 mt-2">
                 <a
-                  href="https://github.com/zacpatrick"
+                  href="https://github.com/"
                   className="text-gray-600 hover:text-gray-900"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <img src={githubIcon} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/zacpatrick"
+                  href="https://linkedin.com/"
                   className="text-gray-600 hover:text-gray-900"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <img src={linkedinIcon} />
                 </a>
                 <a
-                  href="https://twitter.com/zacpatrick"
+                  href="https://x.com/"
                   className="text-gray-600 hover:text-gray-900"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <img src={twitterIcon} />
                 </a>
