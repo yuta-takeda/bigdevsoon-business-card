@@ -12,3 +12,11 @@
       sans-serif;
   }
 }
+
+.lime-gradation-animation {
+  @apply bg-[length:800%_800%] bg-gradient-to-br from-lime-300 to-lime-700 animate-gradation;
+}
+
+.slate-gradation-animation {
+  @apply bg-[length:800%_800%] bg-gradient-to-br from-slate-100 to-slate-300 animate-gradation;
+}

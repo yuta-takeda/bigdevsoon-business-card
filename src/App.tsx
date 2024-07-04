@@ -63,11 +63,11 @@ function App() {
                 className="object-cover w-[300px] h-[500px]"
               />
             </div>
-            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[100px] left-[-90px]"></div>
-            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[70px] left-[210px]"></div>
-            <div className="absolute z-20 w-8 h-8 bg-slate-200 top-[520px] left-[100px]"></div>
-            <div className="absolute w-12 h-12 bg-lime-700 rounded-full top-[510px] left-[200px]"></div>
-            <div className="absolute z-20 w-32 h-32 bg-lime-700 rounded-full top-[-60px] left-[590px]"></div>
+            <div className="absolute z-20 w-8 h-8 slate-gradation-animation top-[100px] left-[-90px]"></div>
+            <div className="absolute z-20 w-8 h-8 slate-gradation-animation top-[70px] left-[210px]"></div>
+            <div className="absolute z-20 w-8 h-8 slate-gradation-animation top-[520px] left-[100px]"></div>
+            <div className="absolute w-12 h-12 rounded-full lime-gradation-animation top-[510px] left-[200px]"></div>
+            <div className="absolute z-20 w-32 h-32 rounded-full lime-gradation-animation top-[-60px] left-[590px]"></div>
           </div>
           <div className="flex flex-col p-8 mt-12 grow-[3] w-[400px]">
             <h1 className="text-5xl font-medium leading-16">
